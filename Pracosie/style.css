@@ -1,0 +1,45 @@
+	*{
+		font-family: arial;
+	}
+	form{
+		background-color: green;
+		border: 2px solid yellow;
+		color: white;
+		width: 25%;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	input{
+		border-radius: 2px;
+		border: none;
+		background-color: lightgreen;
+	}
+	select{
+		background-color: lightgreen;
+		cursor: pointer;
+	}
+	input[type='submit']{
+		background-color: lightgreen;
+		outline: none;
+		border: 2px solid black;
+		margin: 10px;
+		cursor: pointer;
+		font-size: 15px;
+		transition: 0.5s;
+	}
+	input[type='submit']:hover{
+		color: red;
+		border-radius: 5px;
+	}
+	p{
+		margin-left: 10px;
+	}
+	table, td, th{
+		background-color: green;
+		border: 2px solid lightgreen;
+		color: white;
+		border-collapse: collapse;
+	}
+	th{
+		color: black;
+	}
